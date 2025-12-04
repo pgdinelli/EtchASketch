@@ -12,7 +12,15 @@ function main() {
         }
         
         frame.appendChild(row);
+        
+        const cells = document.querySelectorAll('.cell').forEach(cell => {
+            cell.addEventListener("mouseover", () => {
+                cell.style.backgroundColor = 'black';
+            })
+        })
     }
+
+    
 }
 
 main();

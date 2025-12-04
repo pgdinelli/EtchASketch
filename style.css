@@ -2,12 +2,14 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100vh;
 }
 
 .frame{
-    background-color: aqua;
-    width: 50vw;
-    height: 90vh;
+    border: 1px solid black;
+    width: 75vw;
+    height: 50vh;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -16,11 +18,11 @@ main{
 .row{
     display: flex;
     flex: 1;
-    background-color: blueviolet;
-    border: 2px solid black;
+    /* background-color: blueviolet;
+    border: 2px solid black; */
 }
 
 .cell{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     flex: 1;
 }
