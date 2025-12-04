@@ -1,5 +1,12 @@
 function main() {
     const frame = document.querySelector('.frame');
+    const resetBtn = document.querySelector('.resetBtn');
+
+    resetBtn.addEventListener("click", () => {
+        const cells = document.querySelectorAll('.cell').forEach(cell => {
+            cell.style.backgroundColor = 'white'
+        });
+    })
 
     for (let i = 0; i < 16; i++) {
         const row = document.createElement('div');
@@ -19,8 +26,6 @@ function main() {
             })
         })
     }
-
-    
 }
 
 main();
