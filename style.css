@@ -25,12 +25,9 @@ main{
 .row{
     display: flex;
     flex: 1;
-    /* background-color: blueviolet;
-    border: 2px solid black; */
 }
 
 .cell{
-    /* border: 2px solid white; */
     flex: 1;
 }
 
